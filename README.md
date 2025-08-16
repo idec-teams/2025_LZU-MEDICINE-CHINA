@@ -1,0 +1,2 @@
+# 2025_LZU-MEDICINE-CHINA
+Wiki repository for 2025 iDEC Team: LZU-MEDICINE-CHINA
