@@ -166,12 +166,12 @@
 
   function onReady() {
     setSectionThemeFromPath()
+    enhanceTeamPage()
     autoRevealContentBlocks()
     initScrollProgress()
     initRevealOnScroll()
     initTiltOnCards()
     initButtonCursorGlow()
-    enhanceTeamPage()
   }
 
   // MkDocs Material emits events for page changes (instant navigation)

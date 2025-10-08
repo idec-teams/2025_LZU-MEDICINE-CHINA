@@ -1,11 +1,6 @@
-<div class="hero reveal">
-  <div class="hero-decor">
-    <div class="blob b1"></div>
-    <div class="blob b2"></div>
-    <div class="blob b3"></div>
-  </div>
+<div class="hero">
   <h1>iDEC 2025 · LZU‑MEDICINE‑CHINA</h1>
-  <p>Intelligent live biotherapeutic for perioperative gut dysbiosis: dual‑action precision therapy—barrier repair via oleic acid and pathogen suppression via defensin—coupled with a bile‑salt–responsive Hok/Sok biosafety system for gut‑specific survival and extra‑intestinal self‑clearance.</p>
+  <p>Intelligent live biotherapeutic for perioperative gut dysbiosis: dual-action precision therapy—barrier repair via oleic acid and pathogen suppression via defensin—coupled with a bile-salt–responsive Hok/Sok biosafety system for gut-specific survival and extra‑intestinal self‑clearance.</p>
   <div class="actions">
     <a class="button secondary" href="project/description/">Explore the Project</a>
     <a class="button primary" href="wet-lab/results/">See Results</a>
@@ -17,37 +12,37 @@
 ## Highlights
 
 <div class="features">
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">🧬</div>
     <h3>Dual‑Action Therapeutic Design</h3>
     <p>Metabolic module secretes oleic acid for barrier repair; immune module expresses defensin to clear pathogens—two synergistic pathways.</p>
     <p><a href="project/design/">Learn the design →</a></p>
   </div>
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">🧠</div>
     <h3>Signal‑Coupled Biosafety</h3>
     <p>P16090 bile‑salt responsive promoter couples therapy with Hok/Sok: suppressed toxin in‑gut, rapid self‑lysis outside.</p>
     <p><a href="project/safety/">Learn safety →</a></p>
   </div>
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">🧪</div>
     <h3>Reproducible Experiments</h3>
     <p>Systematic experimental design and documentation with complete results for verification and extension.</p>
     <p><a href="wet-lab/results/">See results →</a></p>
   </div>
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">🧩</div>
     <h3>Modular Circuits</h3>
     <p>Therapy, sensing, and safety modules decoupled for flexible composition across hosts and scenarios.</p>
     <p><a href="project/implementation/">Implementation →</a></p>
   </div>
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">🌍</div>
     <h3>Human‑Centric Practices</h3>
     <p>Education, inclusivity, and sustainability initiatives aligned with clinical needs and social impact.</p>
     <p><a href="human-practices/ihp/">Integrated Practices →</a></p>
   </div>
-  <div class="feature-card reveal">
+  <div class="feature-card">
     <div class="feature-icon">📚</div>
     <h3>Open & Standardized</h3>
     <p>Complete documentation, reusable parts, and standardized records to foster open collaboration.</p>
