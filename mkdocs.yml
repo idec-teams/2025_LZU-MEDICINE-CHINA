@@ -1,4 +1,4 @@
-site_name: iDEC 2025 | LZU-MEDICINE-CHINA
+site_name: iGEM 2025 | LZU-MEDICINE-CHINA
 
 theme:
   name: material
@@ -11,16 +11,19 @@ theme:
 
   features:
     - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
 
 markdown_extensions:
   - footnotes
-
+  - tables
+  - attr_list
+  - md_in_html
+  
   # For MathJax
   - pymdownx.arithmatex:
       generic: true
-
-  # For buttons and image control
-  - attr_list
 
 extra_javascript:
   # For MathJax: https://squidfunk.github.io/mkdocs-material/reference/mathjax/
@@ -34,17 +37,32 @@ extra_javascript:
 
 edit_uri: blob/main/docs/
 
-repo_url: https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA
+repo_url: https://github.com/igem-teams/2025_LZU-MEDICINE-CHINA
 
-copyright: Copyright &copy; 2025 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+copyright: Copyright &copy; 2025 iGEM LZU-MEDICINE-CHINA. CC-BY-4.0
 
 nav:
   - Home: index.md
-  - Team: team.md
+  - Team:
+      - Members: team/members.md
+      - Attributions: team/attributions.md
   - Project:
-      - Background: project/background.md
-      - Results: project/results.md
-  - Documentation:
-      - Protocols: documentation/protocols.md
-      - Lab notebook: documentation/notebook.md
-  - Some useful features: useful_features.md
+      - Description: project/description.md
+      - Design: project/design.md
+      - Contribution: project/contribution.md
+      - Implementation: project/implementation.md
+      - Safety: project/safety.md
+  - Wet Lab:
+      - Engineering: wet-lab/engineering.md
+      - Notebook: wet-lab/notebook.md
+      - Protocol: wet-lab/protocol.md
+      - Results: wet-lab/results.md
+      - Parts: wet-lab/parts.md
+      - Proof of Concept: wet-lab/proof-of-concept.md
+  - Human Practices:
+      - Integrated Human Practices: human-practices/ihp.md
+      - Education: human-practices/education.md
+      - Entrepreneurship: human-practices/entrepreneurship.md
+      - Inclusivity: human-practices/inclusivity.md
+      - Sustainability: human-practices/sustainability.md
+      - Collaboration: human-practices/collaboration.md
