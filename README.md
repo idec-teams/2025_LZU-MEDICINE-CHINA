@@ -1,5 +1,5 @@
 # Wiki repoistory for iDEC 2025 | LZU-MEDICINE-CHINA
-
+test
 (This a temporary README file that needs to be updated before you submit the team wiki. Please stay tuned at [idec.io](https://idec.io) for future relevant announcements.)
 
 This is the wiki repository for iDEC 2025, Team: LZU-MEDICINE-CHINA.
