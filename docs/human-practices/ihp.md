@@ -71,19 +71,19 @@ As a project focused on disease treatment, continuous communication with experts
 
 After fully demonstrating the feasibility and market potential of the project, we contacted AMATHES, a company based in Suzhou, and submitted a detailed project plan\. The company’s executives gave high praise and strong support to our project’s development and marketing\.
 
-We have also engaged in in\-depth discussions with outstanding students from many universities, including Tianjin University \(TJUSLS\_China\), Jilin University \(JLU\-NBBMS\), Ocean University of China \(OUC\-China\), Nankai University \(NKU\-China\), and Zhengzhou University \(ZZU\-IGEM\)\. We have promoted communication and cooperation between different teams\.
+We have also engaged in in\-depth discussions with outstanding students from many universities, including Tianjin University \(TJUSLS\_China\), Jilin University \(JLU\-NBBMS\), Ocean University of China \(OUC\-China\), Nankai University \(NKU\-China\), and Zhengzhou University \(ZZU\-iDEC\)\. We have promoted communication and cooperation between different teams\.
 
 ![](https://static.igem.wiki/teams/5562/ihp/image7.webp)
 
-Our team also participated in the "China Regional iGEM 'Engineered Living Drugs' Thematic Symposium" initiated by the Peking University iGEM team \(Peking iGEM\)\.
+Our team also participated in the "China Regional iDEC 'Engineered Living Drugs' Thematic Symposium" initiated by the Peking University iDEC team \(Peking iDEC\)\.
 
-From August 5th to 9th, 2025, 28 iGEM teams from 24 top\-tier universities across China gathered at the Jin Kemu Life Science Building of Peking University to engage in in\-depth discussions centered on the "Opportunities and Challenges of Engineered Living Drugs"\.
+From August 5th to 9th, 2025, 28 iDEC teams from 24 top\-tier universities across China gathered at the Jin Kemu Life Science Building of Peking University to engage in in\-depth discussions centered on the "Opportunities and Challenges of Engineered Living Drugs"\.
 
 ![](https://static.igem.wiki/teams/5562/ihp/image8.webp)
 
-Our team also participated in the 12th China iGEMer Community Conference & the 2nd Global Bio Developers Conference \(CCIC & Synbiopunk 2025\)\.
+Our team also participated in the 12th China iDECer Community Conference & the 2nd Global Bio Developers Conference \(CCIC & Synbiopunk 2025\)\.
 
-This industry event — which brought together 107 iGEM teams from across China and over 200 registered participants — served as a vital platform for deepening intercollegiate collaboration\. Through multidimensional interactions, we established collaborative connections with multiple university teams\.
+This industry event — which brought together 107 iDEC teams from across China and over 200 registered participants — served as a vital platform for deepening intercollegiate collaboration\. Through multidimensional interactions, we established collaborative connections with multiple university teams\.
 
 ![](https://static.igem.wiki/teams/5562/ihp/image9.webp)
 
@@ -143,7 +143,7 @@ Our LZU\-MEDICINE\-CHINA team maintains a mindset of profound reflection at ever
 
 ### Elementary Students Education
 
-In the field of synthetic biology, the integrated approach of humanities practice emphasizes the close connection between scientific education and community participation\. In our promotional activities, especially in the lectures for primary schools, we have implemented this concept, converting complex scientific concepts into attractive and easy\-to\-understand experiences for young learners\. Through conducting interactive activities, such as teaching experimental skills and carrying out creative projects like drawing bacteria, our iGEM team has created an environment for primary school students to explore the fascinating world of synthetic biology\. These interactions not only stimulated children's curiosity but also laid the foundation for their understanding of health\-related issues \(such as post\-surgery rehabilitation\) through interesting practical activities\. We believe that this educational promotion can cultivate future scientists and promote a deeper understanding of biological science\. Ultimately, these efforts contribute to achieving the broader goals of the iGEM competition, which is to advocate for science dissemination and strive to make synthetic biology accessible and exciting for everyone \(regardless of their background\)\. This comprehensive approach ensures that science not only continues to develop in the laboratory but also resonates in the community, inspiring the younger generation to participate and contribute to scientific exploration\.
+In the field of synthetic biology, the integrated approach of humanities practice emphasizes the close connection between scientific education and community participation\. In our promotional activities, especially in the lectures for primary schools, we have implemented this concept, converting complex scientific concepts into attractive and easy\-to\-understand experiences for young learners\. Through conducting interactive activities, such as teaching experimental skills and carrying out creative projects like drawing bacteria, our iDEC team has created an environment for primary school students to explore the fascinating world of synthetic biology\. These interactions not only stimulated children's curiosity but also laid the foundation for their understanding of health\-related issues \(such as post\-surgery rehabilitation\) through interesting practical activities\. We believe that this educational promotion can cultivate future scientists and promote a deeper understanding of biological science\. Ultimately, these efforts contribute to achieving the broader goals of the iDEC competition, which is to advocate for science dissemination and strive to make synthetic biology accessible and exciting for everyone \(regardless of their background\)\. This comprehensive approach ensures that science not only continues to develop in the laboratory but also resonates in the community, inspiring the younger generation to participate and contribute to scientific exploration\.
 
 ![](https://static.igem.wiki/teams/5562/ihp/image19.webp)
 ![](https://static.igem.wiki/teams/5562/ihp/image20.webp)
@@ -222,7 +222,7 @@ __商业计划书en__
 
 # Conclusions
 
-As of October 2025, our iGEM journey has achieved significant milestones\. On a technical level, we have successfully constructed engineered probiotics with "targeted response \+ multifunctional synergy\." In terms of practice, we have carried out educational and public welfare activities to enhance public awareness of gut health and promote health equity\. In terms of collaboration, we established a "industry\-academia\-research\-healthcare" network, collaborating with over 10 universities, 3 hospitals, and 1 enterprise to create a sustainable development ecosystem\. Our unwavering dedication and collaborative efforts have enabled us to reach key milestones, demonstrating the success of our human practices\.
+As of October 2025, our iDEC journey has achieved significant milestones\. On a technical level, we have successfully constructed engineered probiotics with "targeted response \+ multifunctional synergy\." In terms of practice, we have carried out educational and public welfare activities to enhance public awareness of gut health and promote health equity\. In terms of collaboration, we established a "industry\-academia\-research\-healthcare" network, collaborating with over 10 universities, 3 hospitals, and 1 enterprise to create a sustainable development ecosystem\. Our unwavering dedication and collaborative efforts have enabled us to reach key milestones, demonstrating the success of our human practices\.
 
 These achievements wouldn't have been possible without the support of Lanzhou University \(research platforms, funding, international resources\), the guidance of clinical experts \(clinical needs alignment, data support\), the assistance of enterprises \(technical and market experience\), the contributions of volunteers \(public welfare activities\), and public participation \(surveys and feedback\)\. Our team extends sincere gratitude to all\.
 

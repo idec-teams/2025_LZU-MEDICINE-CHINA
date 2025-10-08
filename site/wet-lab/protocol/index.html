@@ -1,0 +1,1709 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../notebook/">
+      
+      
+        <link rel="next" href="../results/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Protocol - iDEC 2025 | LZU-MEDICINE-CHINA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#protocol" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2025 | LZU-MEDICINE-CHINA" class="md-header__button md-logo" aria-label="iDEC 2025 | LZU-MEDICINE-CHINA" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2025 | LZU-MEDICINE-CHINA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocol
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../team/members/" class="md-tabs__link">
+          
+  
+  
+  Team
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/description/" class="md-tabs__link">
+          
+  
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../engineering/" class="md-tabs__link">
+          
+  
+  
+  Wet Lab
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../human-practices/ihp/" class="md-tabs__link">
+          
+  
+  
+  Human Practices
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2025 | LZU-MEDICINE-CHINA" class="md-nav__button md-logo" aria-label="iDEC 2025 | LZU-MEDICINE-CHINA" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2025 | LZU-MEDICINE-CHINA
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/members/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Members
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/attributions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Attributions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Project
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/description/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/contribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/implementation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Implementation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Safety
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Wet Lab
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Wet Lab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engineering
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notebook
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Protocol
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocol
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-medium-and-reagent-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Medium and reagent preparation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Medium and reagent preparation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-lb-medium" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1. LB Medium
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-antibiotic-stock-and-working-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2. Antibiotic Stock and Working Solutions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-bile-salt-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3. Bile Salt Solution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-reagents-for-electrophoresis-and-molecular-cloning" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4. Reagents for Electrophoresis and Molecular Cloning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-competent-cell-preparation-and-transformation-reagents" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5. Competent Cell Preparation and Transformation Reagents
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-bacterial-culture-and-chassis-cell-adaptability-verification" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Bacterial culture and chassis cell adaptability verification
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Bacterial culture and chassis cell adaptability verification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-experimental-reagents" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Experimental Reagents
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-experimental-procedures" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Experimental Procedures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-plasmid-construction-and-amplification" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Plasmid Construction and Amplification
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Plasmid Construction and Amplification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-plasmid-construction-restriction-digestion-and-ligation" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. Plasmid Construction - Restriction Digestion and Ligation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-plasmid-amplification-transformation-and-culture" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Plasmid Amplification - Transformation and Culture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-plasmid-extraction-and-verification" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3. Plasmid Extraction and Verification
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-functional-validation-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Functional validation analysis
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Functional validation analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-protein-level-validation-western-blot" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1. Protein Level Validation: Western Blot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-metabolite-level-validation-liquid-chromatography-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2. Metabolite Level Validation: Liquid Chromatography Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-biosafety-system-validation-bactericidal-curve-assay" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3. Biosafety System Validation: Bactericidal Curve Assay
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../results/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Results
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Parts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proof-of-concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proof of Concept
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Human Practices
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Human Practices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/ihp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrated Human Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/education/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Education
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/entrepreneurship/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Entrepreneurship
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/inclusivity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inclusivity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/sustainability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sustainability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../human-practices/collaboration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collaboration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA/blob/main/docs/wet-lab/protocol.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA/raw/main/docs/wet-lab/protocol.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="protocol">Protocol</h1>
+<h2 id="1-medium-and-reagent-preparation">1. Medium and reagent preparation</h2>
+<p>This section provides detailed methods for preparing various media and reagents required for constructing and verifying engineered strains. All procedures must be conducted in a clean environment. For liquid compositions, ultrapure water (18.2 MΩ·cm) should be used, and aseptic techniques must be strictly followed.</p>
+<h3 id="11-lb-medium">1.1. LB Medium</h3>
+<p>Reagents Required: Tryptone, yeast extract, sodium chloride, agar powder (for solid medium), deionized water, sodium hydroxide pellets, or concentrated hydrochloric acid (for pH adjustment).</p>
+<p><strong>LB Liquid Medium:</strong></p>
+<p>(1) Weigh 10 g of tryptone, 5 g of yeast extract, and 10 g of sodium chloride into an appropriate beaker or Erlenmeyer flask.</p>
+<p>(2) Add approximately 800 mL of deionized water and stir with a magnetic stirrer until fully dissolved.</p>
+<p>(3) Make up the volume to 1 L with deionized water.</p>
+<p>(4) Measure the solution's pH using a pH meter and adjust it to 7.0–7.4 using a small amount of NaOH or HCl.</p>
+<p>(5) Aliquot the prepared medium into suitable containers (e.g., test tubes or flasks) and seal them properly.</p>
+<p>(6) Sterilize by autoclaving at 121°C for 20 minutes. After sterilization, store at room temperature or in a refrigerator at 4°C for later use.</p>
+<p><strong>LB Solid Medium:</strong></p>
+<p>(1)Follow steps 1–4 of the liquid LB protocol, but add 15 g of agar powder before making up the volume.</p>
+<p>(2) After volumetric adjustment, proceed to autoclave sterilization.</p>
+<p>(3) After sterilization, cool the medium to around 55–60°C (warm to the touch but not hot). Add appropriate antibiotics or other heat-sensitive additives as required, then mix gently without introducing bubbles.</p>
+<p>(4) Pour the medium into sterile petri dishes in the laminar hood (approximately 20–25 mL per dish), cover the plates, and leave a slight gap for vapor to disperse.</p>
+<p>(5) Once solidified, invert the plates, seal the edges with parafilm, and store them in a 4°C refrigerator.</p>
+<h3 id="12-antibiotic-stock-and-working-solutions">1.2. Antibiotic Stock and Working Solutions</h3>
+<p>Reagents Required: Ampicillin sodium salt, kanamycin sulfate, chloramphenicol, deionized water, 0.22 μm sterile filter membranes, and syringes.</p>
+<p><strong>Ampicillin (100 mg/mL Stock):</strong></p>
+<p>(1) Weigh 1 g of ampicillin sodium salt and dissolve it in 8 mL of deionized water.</p>
+<p>(2) Stir until completely dissolved, then make up the volume to 10 mL.</p>
+<p>(3) Filter sterilize using a 0.22 μm filter and aliquot (e.g., 1 mL per tube) into sterile centrifuge tubes in the laminar hood.</p>
+<p>(4) Store at -20°C protected from light. Working concentration: 100 μg/mL.</p>
+<p><strong>Kanamycin (50 mg/mL Stock):</strong></p>
+<p>(1) Weigh 0.5 g of kanamycin sulfate and dissolve it in 8 mL of deionized water.</p>
+<p>Proceed with steps similar to those for ampicillin preparation. Working concentration: 50 μg/mL.</p>
+<p><strong>Chloramphenicol (34 mg/mL Stock):</strong></p>
+<p>(1) Weigh 0.34 g of chloramphenicol powder and dissolve it in 8 mL of absolute ethanol (due to its poor water solubility).</p>
+<p>(2) Stir to dissolve, then make up the volume to 10 mL with ethanol.</p>
+<p>(3) No filtration is necessary. Aliquot in a sterile environment.</p>
+<p>(4) Store at -20°C protected from light. Working concentration: 25 μg/mL.</p>
+<h3 id="13-bile-salt-solution">1.3. Bile Salt Solution</h3>
+<p>Reagents Required: Bile salt powder, deionized water, 0.22 μm sterile filter membranes, and syringes.</p>
+<p>(1) Weigh 10 g of bile salt powder into a sterile container.</p>
+<p>(2) Add approximately 80 mL of deionized water and dissolve using a magnetic stirrer or vortex mixer.</p>
+<p>(3) Make up the volume to 100 mL, preparing a 10% (w/v) stock solution.</p>
+<p>(4) Filter sterilize using a 0.22 μm filter and aliquot in the laminar hood.</p>
+<p>(5) Store at 4°C protected from light. Add to culture media aseptically as needed to reach the required final concentration (e.g., 0.1%, 0.2%, 0.5%).</p>
+<h3 id="14-reagents-for-electrophoresis-and-molecular-cloning">1.4. Reagents for Electrophoresis and Molecular Cloning</h3>
+<p>Reagents Required: Tris, acetic acid, disodium ethylenediaminetetraacetic acid (EDTA), agarose, GoldView nucleic acid stain (or alternatives like GelRed), DNA loading buffer, DNA molecular weight markers.</p>
+<p><strong>50× TAE Electrophoresis Buffer Stock:</strong></p>
+<p>(1) Weigh 242 g of Tris, 37.2 g of Na₂EDTA·2H₂O, and place into a 1 L beaker.</p>
+<p>(2) Add ~800 mL of deionized water and stir until dissolved.</p>
+<p>(3) Add 57.1 mL of glacial acetic acid and mix thoroughly.</p>
+<p>(4) Make up the volume to 1 L with deionized water and store at room temperature. Dilution to working concentration: 1× TAE.</p>
+<p><strong>1% Agarose Gel:</strong></p>
+<p>(1) Weigh 1 g of agarose powder and place into a 250 mL Erlenmeyer flask.</p>
+<p>(2) Add 100 mL of 1× TAE electrophoresis buffer.</p>
+<p>(3) Heat in a microwave until the agarose completely dissolves, swirling periodically.</p>
+<p>(4) Cool to ~60°C and add a nucleic acid stain (e.g., 5 μL of GoldView). Mix gently and pour into a gel caster with a comb.</p>
+<p>(5) Let the gel solidify at room temperature (~30 minutes) before use.</p>
+<h3 id="15-competent-cell-preparation-and-transformation-reagents">1.5. Competent Cell Preparation and Transformation Reagents</h3>
+<p>Reagents Required: Rubidium chloride, calcium chloride, glycerol, glucose, magnesium chloride, magnesium sulfate, deionized water, 0.22 μm filters.</p>
+<p><strong>SOC Recovery Medium:</strong></p>
+<p>(1) Prepare: Dissolve ingredients (tryptone 2%, yeast extract 0.5%, NaCl 10 mM, KCl 2.5 mM) in deionized water and autoclave.</p>
+<p>(2) Once cooled, aseptically add 20 mM glucose (filter sterilized) and 10 mM MgCl₂ or MgSO₄ solutions.</p>
+<p><strong>RbCl Solutions (For High-Efficiency Competent Cells):</strong></p>
+<p>(1) Solution I (100 mM RbCl, 50 mM MnCl₂, 30 mM KAc, 10 mM CaCl₂, 15% Glycerol, pH 5.8): Prepare by accurate weighing. Adjust pH with acetic acid, sterilize, and pre-chill at 4°C.</p>
+<p>(2) Solution II (10 mM RbCl, 10 mM MOPS, 75 mM CaCl₂, 15% Glycerol, pH 7.0): Prepare similarly, adjusting pH with NaOH.</p>
+<p><strong>0.1 M CaCl₂ Solution (For Simplified Competent Cell Preparation):</strong></p>
+<p>(1) Weigh 1.11 g of anhydrous CaCl₂ and dissolve in 80 mL of deionized water.</p>
+<p>(2) Make up the volume to 100 mL.</p>
+<p>(3) Filter sterilize with a 0.22 μm filter, aliquot, and pre-chill at 4°C.</p>
+<h2 id="2-bacterial-culture-and-chassis-cell-adaptability-verification">2. Bacterial culture and chassis cell adaptability verification</h2>
+<p>This section aims to verify the viability and growth capacity of the selected chassis cell, Lactobacillus casei (L. casei), in a simulated intestinal environment (with bile salts). The results will lay the foundation for subsequent genetic engineering modifications.</p>
+<h3 id="21-experimental-reagents">2.1. Experimental Reagents</h3>
+<p>(1) Strains:</p>
+<ul>
+<li>Wild-type <em>Lactobacillus casei</em> (frozen glycerol stock or streaked agar plate).</li>
+</ul>
+<p>(2) Culture Media:</p>
+<ul>
+<li>LB liquid medium (antibiotic-free).</li>
+<li>LB solid medium (antibiotic-free).</li>
+</ul>
+<p>(3) Reagents:</p>
+<ul>
+<li>Sterile physiological saline (0.85% NaCl) or phosphate-buffered saline (PBS).</li>
+<li>10% (w/v) sterile-filtered bile salt stock solution.</li>
+<li>Sterile glycerol (for preparing glycerol stock culture).</li>
+</ul>
+<p>(4) Consumables and Equipment:</p>
+<ul>
+<li>Sterile test tubes, Erlenmeyer flasks.</li>
+<li>Sterile inoculation loops and glass spreaders.</li>
+<li>Sterile pipette tips.</li>
+<li>Incubator (set to 37°C).</li>
+<li>Shaking incubator (for liquid culture).</li>
+<li>Spectrophotometer.</li>
+<li>Laminar flow hood or biosafety cabinet.</li>
+</ul>
+<h3 id="22-experimental-procedures">2.2. Experimental Procedures</h3>
+<p><strong>Stage 1: Strain Resuscitation and Seed Culture Preparation</strong></p>
+<p>Streak Plate Resuscitation:</p>
+<p>(1) In a sterile environment, use a sterile inoculation loop to pick a small amount of frozen glycerol stock or a single colony from the original plate.</p>
+<p>(2) Perform a three-zone streak on a pre-warmed LB solid agar plate to obtain isolated single colonies.</p>
+<p>(3) Invert the plate and incubate it at 37°C for 24–48 hours.</p>
+<p>Seed Culture Preparation:</p>
+<p>(4) Pick a freshly formed, well-shaped, and edge-smooth single colony from the streaked plate.</p>
+<p>(5) Inoculate the colony into a sterile test tube or small Erlenmeyer flask containing 5–10 mL of LB liquid medium.</p>
+<p>(6) Incubate at 37°C while shaking at 150 rpm (or keep stationary for static culture) for 12–16 hours until the medium becomes visibly turbid (OD₆₀₀ ≈ 1.0). This serves as the seed culture.</p>
+<p><strong>Stage 2: Bile Salt Tolerance Test - Liquid Culture Analysis</strong></p>
+<p>Preparation of Bile Salt-Supplemented Medium:</p>
+<p>(1) Prepare sterile Erlenmeyer flasks, each containing a fixed volume of LB liquid medium.</p>
+<p>(2) Using sterile techniques, add the required amount of 10% bile salt stock solution to achieve final concentrations of 0% (control), 0.1%, 0.2%, and 0.5%.</p>
+<p>(3) Mix thoroughly by gently swirling.</p>
+<p>Inoculation and Cultivation:</p>
+<p>(1) Inoculate the pre-prepared seed culture into bile salt-supplemented LB media at a 1:100 dilution ratio (e.g., 100 μL seed culture into 10 mL medium).</p>
+<p>(2) Set up at least two parallel replicates for each bile salt concentration.</p>
+<p>(3) Place the flasks into a shaking incubator at 37°C, shaking at 200 rpm.</p>
+<p>Growth Curve Plotting:</p>
+<p>(1) At time intervals of 0, 2, 4, 6, 8, and 24 hours, take samples from each flask.</p>
+<p>(2) Measure the optical density at 600 nm (OD₆₀₀) using a spectrophotometer, using the respective uninoculated medium at the same concentration as a blank control.</p>
+<p>(3) Record the OD₆₀₀ values and plot growth curves with time on the x-axis and OD₆₀₀ (mean value) on the y-axis for each bile salt concentration.</p>
+<p><strong>Stage 3: Bile Salt Tolerance Test - Solid Culture Analysis</strong></p>
+<p>Preparation of Bile Salt-Supplemented Agar Plates:</p>
+<p>(1) Autoclave LB solid medium and cool to approximately 55°C.</p>
+<p>(2) Add the desired volume of 10% bile salt stock solution into the medium under sterile conditions to prepare final concentrations of 0%, 0.1%, 0.2%, and 0.5%.</p>
+<p>(3) Mix quickly and pour the medium into sterile Petri dishes to form solid agar plates.</p>
+<p>Bacterial Dilution and Plate Spreading:</p>
+<p>(1) Dilute the seed culture in sterile physiological saline to prepare a series of 10-fold dilutions, selecting an appropriate dilution to achieve 30–300 CFU per plate.</p>
+<p>(2) Pipette 100 μL of the diluted bacterial suspension onto the center of each agar plate with the corresponding bile salt concentration.</p>
+<p>(3) Use a sterile spreader to evenly distribute the bacterial suspension across the agar surface.</p>
+<p>Incubation and Observation:</p>
+<p>(1) Allow the liquid on the plate to be absorbed.</p>
+<p>(2) Invert the plates and incubate them at 37°C for 24–48 hours.</p>
+<p>(3) Observe and compare the colony size, morphology, and density across different bile salt concentrations.</p>
+<p>(4) For countable plates (30–300 CFU/plate), count the colonies and calculate the viable bacterial concentration in the original seed culture (CFU/mL).</p>
+<h2 id="3-plasmid-construction-and-amplification">3. Plasmid Construction and Amplification</h2>
+<p>This section provides a detailed description of the process for cloning target genes (e.g., accA, OLE1, DEFB4A) into specific plasmid backbones (e.g., pMG36e, PNZ8048, PIP501) and amplifying them in bacterial hosts.</p>
+<h3 id="31-plasmid-construction-restriction-digestion-and-ligation">3.1. Plasmid Construction - Restriction Digestion and Ligation</h3>
+<p>Double Digestion of Plasmid Backbone and Insert Fragment</p>
+<p>Reaction System (for a 50 μL total volume):</p>
+<ul>
+<li>Plasmid DNA or PCR product: 1–2 μg</li>
+<li>10× FastDigest Green Buffer: 5 μL</li>
+<li>Restriction Enzyme I (e.g., BamHI): 1 μL</li>
+<li>Restriction Enzyme II (e.g., XhoI): 1 μL</li>
+<li>Sterile ultrapure water: To 50 μL total</li>
+</ul>
+<p>Protocol:</p>
+<p>(1) Assemble the reaction mixture in a sterile PCR tube in the order listed above, mixing gently by pipetting.</p>
+<p>(2) Incubate the reaction mixture in a 37°C water bath or metal block for 30–60 minutes.</p>
+<p>(3) After digestion, take 5 μL of the product and perform agarose gel electrophoresis to verify successful digestion.</p>
+<p>Purification and Recovery of DNA Fragments</p>
+<p>(1) Load the remaining digested reaction mixture into wells of an agarose gel and separate the DNA fragments via electrophoresis.</p>
+<p>(2) Using a UV gel imaging system, locate the desired DNA bands (correct linearized plasmid backbone and insert fragments) and excise them with a sterile scalpel, minimizing extra gel.</p>
+<p>(3) Purify and recover the DNA using an agarose gel extraction kit following the manufacturer's instructions:</p>
+<ul>
+<li>Weigh the gel slices.</li>
+<li>Dissolve the gel in Binding Buffer at 65°C until the gel completely melts.</li>
+<li>Transfer the solution into a spin column and centrifuge.</li>
+<li>Wash the column twice with Wash Buffer and air dry by centrifugation.</li>
+<li>Elute the DNA with Elution Buffer or sterile water and collect the eluate.</li>
+</ul>
+<p>(4) Measure the DNA concentration and purity with a micro-volume spectrophotometer.</p>
+<p>Ligation Reaction</p>
+<p>Reaction System (for a 10–20 μL total volume):</p>
+<ul>
+<li>Linearized plasmid backbone: ~50 ng (Recommended molar ratio: vector:insert = 1:3 to 1:7)</li>
+<li>Insert fragment DNA: X μL (adjusted to achieve the desired molar ratio)</li>
+<li>10× T4 DNA Ligase Buffer: 1–2 μL</li>
+<li>T4 DNA Ligase: 1 μL (e.g., 5 Weiss U/μL)</li>
+<li>Sterile ultrapure water: Add to 10–20 μL</li>
+</ul>
+<p>Protocol:</p>
+<p>(1) Mix the reaction components gently and briefly centrifuge to collect drops.</p>
+<p>(2) Incubate at 16°C in a water bath or metal block overnight (12–16 hours). For high-efficiency systems, incubation can be shortened to 1–2 hours.</p>
+<h3 id="32-plasmid-amplification-transformation-and-culture">3.2. Plasmid Amplification - Transformation and Culture</h3>
+<p>Chemical Transformation</p>
+<p>(1) Take a tube of chemically competent cells (50–100 μL) from the –80°C freezer and thaw on ice for 5–10 minutes.</p>
+<p>(2) Add 5–10 μL of the ligation product (or ~10 ng purified plasmid for a positive control, and use no DNA for a negative control) into the thawed cells. Flick the tube gently to mix without vortexing. Incubate on ice for 30 minutes.</p>
+<p>(3) Heat shock the cells at 42°C for exactly 90 seconds in a pre-heated water bath. Immediately place the tube back on ice for 2–5 minutes.</p>
+<p>(4) Add 500–900 μL of pre-warmed antibiotic-free LB medium to the tube.</p>
+<p>(5) Incubate the tube in a shaking incubator at 37°C and 150–200 rpm for 45–90 minutes to allow the bacteria to recover and express the antibiotic resistance gene.</p>
+<p>Plating and Primary Screening of Positive Clones</p>
+<p>(1) Briefly centrifuge the recovered bacterial suspension to concentrate the cells, discard part of the supernatant, and resuspend the remaining cells (~100–150 μL).</p>
+<p>(2) Spread the resuspended cells evenly onto LB selection plates containing the appropriate antibiotic (e.g., Ampicillin, Kanamycin, or Chloramphenicol) using a sterile spreader.</p>
+<p>(3) Allow the liquid to absorb completely, then invert the plates and incubate them at 37°C for 12–16 hours.</p>
+<p>(4) After incubation, pick individual well-isolated colonies and inoculate them into 5 mL of LB liquid medium with the corresponding antibiotic.</p>
+<p>(5) Grow cultures at 37°C and 220 rpm in a shaking incubator overnight (12–16 hours).</p>
+<h3 id="33-plasmid-extraction-and-verification">3.3. Plasmid Extraction and Verification</h3>
+<p>Miniprep to Extract Plasmid DNA</p>
+<p>Use a miniprep kit to extract plasmid DNA from 1.5–5 mL of overnight bacterial culture:</p>
+<ul>
+<li>Centrifuge the culture to collect the bacterial pellet.</li>
+<li>Resuspend the pellet in Resuspension Buffer.</li>
+<li>Lyse the cells by adding Lysis Buffer and mix gently until the solution becomes clear and viscous.</li>
+<li>Neutralize with Neutralization Buffer to form precipitates.</li>
+<li>Centrifuge and load the supernatant onto a spin column.</li>
+<li>Wash the column twice with Wash Buffer.</li>
+<li>Elute the plasmid DNA with Elution Buffer or sterile water and store at –20°C.</li>
+</ul>
+<h2 id="4-functional-validation-analysis">4. Functional validation analysis</h2>
+<p>This section aims to systematically validate the designed functions of the engineered bacteria, including target protein expression, synthesis of metabolic products, and the reliability of the biosafety system.</p>
+<h3 id="41-protein-level-validation-western-blot">4.1. Protein Level Validation: Western Blot</h3>
+<p>Experimental Reagents:</p>
+<ul>
+<li>Samples:<ul>
+<li>Induced engineered bacteria (+0.1% bile salts) and non-induced engineered bacteria (no bile salts).</li>
+<li>Wild-type bacteria as controls.</li>
+</ul>
+</li>
+<li>Cell Lysis Buffer:<ul>
+<li>RIPA buffer containing PMSF or other protease inhibitors.</li>
+</ul>
+</li>
+<li>Electrophoresis Reagents:<ul>
+<li>4× Protein loading buffer.</li>
+<li>SDS-PAGE precast gel or gel preparation reagents (Tris-HCl, Acrylamide-Bis, SDS, APS, TEMED).</li>
+<li>Protein molecular weight marker.</li>
+<li>1× Electrophoresis running buffer.</li>
+</ul>
+</li>
+<li>Transfer Reagents:<ul>
+<li>PVDF membrane or NC membrane.</li>
+<li>1× Transfer buffer.</li>
+<li>Methanol.</li>
+</ul>
+</li>
+<li>Immunodetection Reagents:<ul>
+<li>Blocking solution: 5% skim milk or BSA dissolved in TBST buffer.</li>
+<li>Primary antibody: Mouse anti-His-tag monoclonal antibody.</li>
+<li>Secondary antibody: HRP-conjugated goat anti-mouse IgG.</li>
+<li>Wash buffer: 1× TBST buffer.</li>
+<li>Substrate: ECL chemiluminescence kit.</li>
+</ul>
+</li>
+</ul>
+<p>Procedure:</p>
+<p>Protein Sample Preparation:</p>
+<p>(1) Collect 1-5 mL bacterial culture and centrifuge to discard the supernatant.</p>
+<p>(2) Wash the bacterial pellet once with PBS and resuspend in an appropriate amount of RIPA lysis buffer. Incubate on ice for 30 minutes with intermittent vortexing.</p>
+<p>(3) Centrifuge at 4°C, 12,000 rpm for 15 minutes and collect the supernatant as the total protein sample.</p>
+<p>(4) Mix the protein supernatant with 4× protein loading buffer at a 3:1 ratio and heat in a boiling water bath for 10 minutes to denature proteins.</p>
+<p>SDS-PAGE:</p>
+<p>(1) Load the prepared protein samples and molecular weight marker into the wells of an SDS-PAGE gel.</p>
+<p>(2) Run electrophoresis at an initial voltage of 80V, switching to 120V after the samples enter the separation gel, and continue until the bromophenol blue dye reaches the gel bottom.</p>
+<p>Membrane Transfer:</p>
+<p>(3) Perform wet transfer. Assemble a "sandwich" structure with the gel, pre-activated PVDF membrane (activated with methanol), filter paper, and sponge soaked in transfer buffer.</p>
+<p>(4) Transfer proteins at 4°C using a constant current of 250 mA for 60-90 minutes.</p>
+<p>Immunoblotting and Detection:</p>
+<p>(1) After transfer, place the PVDF membrane in 5% skim milk blocking solution and incubate at room temperature for 1 hour.</p>
+<p>(2) Wash the membrane three times with TBST buffer, 5 minutes each.</p>
+<p>(3) Incubate with the primary antibody solution (diluted according to the manufacturer's instructions) overnight at 4°C or at room temperature for 2 hours.</p>
+<p>(4) Wash the membrane three times with TBST buffer for 10 minutes each.</p>
+<p>(5) Incubate with the HRP-conjugated secondary antibody (diluted according to the manufacturer's instructions) at room temperature for 1 hour.</p>
+<p>(6) Wash thoroughly with TBST, then add an equal mixture of ECL substrate A and B solution to the membrane.</p>
+<p>(7) Expose the membrane in a chemiluminescence imaging system and capture the image.</p>
+<h3 id="42-metabolite-level-validation-liquid-chromatography-analysis">4.2. Metabolite Level Validation: Liquid Chromatography Analysis</h3>
+<p>Experimental Reagents:</p>
+<ul>
+<li>Samples:<ul>
+<li>Culture supernatants from different engineered bacteria and control strains (centrifuged and filtered through 0.22 μm membranes).</li>
+</ul>
+</li>
+<li>Standards:<ul>
+<li>Short-chain fatty acids (acetic acid, propionic acid, butyric acid) and oleic acid standards.</li>
+</ul>
+</li>
+<li>Mobile Phase:<ul>
+<li>Acidic aqueous solution (e.g., 0.005 M H₂SO₄) prepared based on chromatography requirements.</li>
+</ul>
+</li>
+<li>Consumables:<ul>
+<li>HPLC injection vials and 0.22 μm syringe filters compatible with aqueous samples.</li>
+</ul>
+</li>
+</ul>
+<p>Procedure:</p>
+<p>Sample Preparation:</p>
+<p>(1) Centrifuge collected culture supernatants at 4°C, 12,000 rpm for 10 minutes, and filter the supernatants through 0.22 μm syringe filters. Transfer into HPLC vials.</p>
+<p>Standard Curve Preparation:</p>
+<p>(1) Prepare a series of standard solutions with known concentrations of each metabolite and analyze using the same chromatographic conditions to generate standard curves.</p>
+<p>Chromatographic Conditions (Example, Subject to Optimization):</p>
+<ul>
+<li>Column:<ul>
+<li>C18 reverse-phase column (for oleic acid) or a specialized organic acid analysis column (e.g., Aminex HPX-87H for short-chain fatty acids).</li>
+</ul>
+</li>
+<li>Detector:<ul>
+<li>UV detector (for oleic acid, detection at ~205 nm) or refractive index detector (RID, for general applications).</li>
+</ul>
+</li>
+<li>Mobile Phase and Flow Rate:<ul>
+<li>Adjust according to the selected column and method.</li>
+</ul>
+</li>
+<li>Column Temperature:<ul>
+<li>30-50°C.</li>
+</ul>
+</li>
+</ul>
+<p>Sample Analysis:</p>
+<p>(1) Inject prepared samples and standards sequentially and record chromatograms.</p>
+<p>(2) Identify metabolites by comparing the retention times of sample peaks to those of standards. Quantify concentrations using peak areas and standard curves.</p>
+<h3 id="43-biosafety-system-validation-bactericidal-curve-assay">4.3. Biosafety System Validation: Bactericidal Curve Assay</h3>
+<p>Experimental Reagents:</p>
+<ul>
+<li>Strains:<ul>
+<li>Engineered bacteria carrying the Hok/Sok system.</li>
+</ul>
+</li>
+<li>Culture Media:<ul>
+<li>LB broth with 0.1% bile salts ("intestinal environment").</li>
+<li>LB broth without bile salts ("non-intestinal environment").</li>
+</ul>
+</li>
+<li>Reagent:<ul>
+<li>Sterile PBS.</li>
+</ul>
+</li>
+</ul>
+<p>Procedure:</p>
+<p>Pre-culture and Induction:</p>
+<p>(1) Inoculate engineered bacteria into LB broth with 0.1% bile salts and incubate at 37°C until mid-log phase (OD₆₀₀ ≈ 0.6). This simulates the intestinal environment where the biosafety system is suppressed.</p>
+<p>Environmental Shift:</p>
+<p>(2) Harvest a suitable volume of bacterial culture by centrifugation and collect the pellet.</p>
+<p>(3) Wash the cells gently twice with sterile PBS to remove residual bile salts.</p>
+<p>(4) Resuspend the pellet in an equal volume of fresh LB broth without bile salts. Mark this time point as t=0.</p>
+<p>Sampling and Colony Counting:</p>
+<p>(1) At various time points, take samples from the culture.</p>
+<p>(2) Perform serial 10-fold dilutions in sterile PBS.</p>
+<p>(3) Plate 100 μL from suitable dilutions onto LB agar plates without bile salts but with antibiotics to select for the engineered strain.</p>
+<p>(4) Incubate plates at 37°C for 24-48 hours.</p>
+<p>Data Recording and Analysis:</p>
+<p>(1) Count colonies on plates with 30-300 colonies and calculate CFU/mL for each time point using dilution factors.</p>
+<p>(2) Plot a killing curve with time as the x-axis and log(CFU/mL) as the y-axis.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 iDEC LZU-MEDICINE-CHINA. CC-BY-4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/idec-teams/2025_LZU-MEDICINE-CHINA" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "header.autohide", "toc.integrate", "toc.follow", "navigation.expand", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="../../javascripts/enhance.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>

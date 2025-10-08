@@ -2,7 +2,7 @@
 
 This page is for team attributions and acknowledgments.
 
-*Note: For iGEM teams, this page typically displays an embedded attribution form from the iGEM website. For standalone use, please add your attribution content here.*
+*Note: For iDEC teams, this page typically displays an embedded attribution form from the iDEC website. For standalone use, please add your attribution content here.*
 
 ## Team Contributions
 
@@ -28,7 +28,7 @@ We would like to thank:
 This project was supported by:
 
 - Lanzhou University
-- iGEM Competition Grants
+- iDEC Competition Grants
 - Other institutional support
 
 ---

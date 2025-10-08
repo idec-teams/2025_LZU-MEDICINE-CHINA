@@ -1,4 +1,4 @@
-# iGEM 2025 Project Notebook: Gut Health Guardian
+# iDEC 2025 Project Notebook: Gut Health Guardian
 
 ## November 2024: Project Initiation and In\-Depth Research
 
@@ -34,7 +34,7 @@ This month focused on building the biocontainment system\. We successfully assem
 
 ## July 2025: Comprehensive Functional Validation and Mid\-Term Exchange
 
-We began integrating the therapeutic and safety modules into the same engineered bacterial strain and conducted comprehensive functional re\-verification\. Team representatives attended the __CCIC\(Conference of China iGEMer Community\)__, presented our mid\-term results as a poster, and engaged in in\-depth discussions with field experts, gaining valuable feedback\. Lesson Learned: External exchanges are excellent opportunities to test project innovation and gain inspiration\.
+We began integrating the therapeutic and safety modules into the same engineered bacterial strain and conducted comprehensive functional re\-verification\. Team representatives attended the __CCIC\(Conference of China iDECer Community\)__, presented our mid\-term results as a poster, and engaged in in\-depth discussions with field experts, gaining valuable feedback\. Lesson Learned: External exchanges are excellent opportunities to test project innovation and gain inspiration\.
 
 ## August 2025: Data Supplementation and Human Practices Expansion
 
@@ -44,7 +44,7 @@ Addressing questions raised by experts during exchanges, we supplemented data wi
 
 Wet lab work essentially concluded, entering the data consolidation phase\. We aggregated all experimental results, performed statistical analysis, and produced final charts and graphs\. Concurrently, we developed a simple kinetic model based on ordinary differential equations to simulate the colonization and clearance dynamics of our engineered bacteria in the gut\. The team's core task was the design and development of the Wiki page, ensuring all content was written, programmed, and polished before the deadline\.
 
-## October 2025: Final Preparation and iGEM Giant Jamboree
+## October 2025: Final Preparation and iDEC Giant Jamboree
 
-This was the final sprint\. We focused intensely on refining the Final Presentation slides and Poster, conducting multiple rehearsal sessions\. The project promotion video was also finalized and released\. This month, the entire team traveled to Paris, France, to participate in the iGEM Giant Jamboree, presenting our "Gut Health Guardian" project to the global synthetic biology community, exchanging ideas with teams from around the world, and drawing a successful conclusion to a full year of hard work\.
+This was the final sprint\. We focused intensely on refining the Final Presentation slides and Poster, conducting multiple rehearsal sessions\. The project promotion video was also finalized and released\. This month, the entire team traveled to Paris, France, to participate in the iDEC Giant Jamboree, presenting our "Gut Health Guardian" project to the global synthetic biology community, exchanging ideas with teams from around the world, and drawing a successful conclusion to a full year of hard work\.
 

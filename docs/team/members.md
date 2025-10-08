@@ -238,7 +238,7 @@ Defy all odds!
 
 ## Weitao Wang
 
-I hope to leverage this iGEM opportunity to enhance my skills, and I am eager to see our efforts propel this year's iGEM to even greater heights than last year.
+I hope to leverage this iDEC opportunity to enhance my skills, and I am eager to see our efforts propel this year's iDEC to even greater heights than last year.
 
 ![](https://static.igem.wiki/teams/5562/members/wangweitao.webp)
 

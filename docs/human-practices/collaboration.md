@@ -1,6 +1,6 @@
 # 1. Overview of Collaboration
 
-Throughout the iGEM journey, we have had the privilege of collaborating
+Throughout the iDEC journey, we have had the privilege of collaborating
 with multiple teams, academic institutions, organizations, companies,
 and local communities, enriching our project, fostering knowledge
 exchange, and advancing the cause of global scientific development.
@@ -28,10 +28,10 @@ experimental workshops and knowledge competition, the transfer of
 professional knowledge and discipline practice credit incentive was
 achieved. We deepen cooperation with school management departments,
 upgrade from \"special grants\" to \"systematic empowerment\", obtain
-grants for iGEM competitions, international academic docking and brand
+grants for iDEC competitions, international academic docking and brand
 promotion support for scientific innovation, and lay a solid foundation
 for project development. At the same time, we actively expanded
-inter-school cooperation, carried out thematic exchanges with iGEM teams
+inter-school cooperation, carried out thematic exchanges with iDEC teams
 from more than 10 universities such as Tianjin University and Jilin
 University, participated in the CCIC Conference, the Peking University
 Symposium on \"Living Drug Engineering\", and others.
@@ -163,7 +163,7 @@ for a university-level project this year. We further promoted the
 upgrade of resource support from the International Affairs Office and
 the Research Management Department, achieving a shift from \'specialized
 funding\' to \'systematic empowerment.\' Not only did we receive
-additional funding for participation in the iGEM international
+additional funding for participation in the iDEC international
 competition and global promotion of our results, but we also gained deep
 collaboration from the administrative departments in areas like
 international academic cooperation and university-level science and
@@ -171,10 +171,10 @@ innovation branding.
 
 Through the continued output of the \'Gut Microbiome Engineering
 Bacteria\' project's milestones (such as laboratory data and the impact
-of science outreach), we demonstrated the long-term value of the iGEM
+of science outreach), we demonstrated the long-term value of the iDEC
 team, which led the university's administrative departments to shift
 from \'initial support\' to \'ongoing investment.\' This further
-solidified the iGEM project's position in the university's international
+solidified the iDEC project's position in the university's international
 science and innovation strategy, while also establishing a strong
 administrative resource foundation for the team's future international
 exchanges and results transformation.
@@ -185,11 +185,11 @@ exchanges and results transformation.
 
 ## 3.1 Key Universities One-on-One Thematic Exchanges
 
-### 3.1.1 With iGEM Team of School of Life Science, Tianjin University(TJUSL-China)
+### 3.1.1 With iDEC Team of School of Life Science, Tianjin University(TJUSL-China)
 
 In order to deepen the intercollegiate collaboration in the field of
-synthetic biology, our team and the iGEM team of Tianjin University
-(TJUSLS_China) jointly held an iGEM exchange and sharing meeting on July
+synthetic biology, our team and the iDEC team of Tianjin University
+(TJUSLS_China) jointly held an iDEC exchange and sharing meeting on July
 18, 2025. At the meeting, both parties carried out in-depth discussions
 around the core links of their respective projects, such as project
 design, experimental progress, and human practice. We focused on the
@@ -202,15 +202,15 @@ Through this exchange, the two sides not only achieved cross-border
 collision in academic ideas, but also reached a lot of consensus in
 project optimization and resource complementarity, laying a solid
 foundation for cooperation in achieving breakthroughs and promoting the
-practical application of synthetic biology technology in the iGEM
+practical application of synthetic biology technology in the iDEC
 competitions.
 
 ![picture_14](https://static.igem.wiki/teams/5562/collabroation/14.webp)
 
-### 3.1.2 Collaboration with iGEM Team (JLU-NBBMS) of School of Basic Medical Sciences, Jilin University
+### 3.1.2 Collaboration with iDEC Team (JLU-NBBMS) of School of Basic Medical Sciences, Jilin University
 
-On July 21, 2025, our team (LZU-MEDICINE-CHINA) and the iGEM team of
-Jilin University (JLU-NBBMS) held an online iGEM topic exchange.
+On July 21, 2025, our team (LZU-MEDICINE-CHINA) and the iDEC team of
+Jilin University (JLU-NBBMS) held an online iDEC topic exchange.
 
 the team from Jilin University shared the topic of \"Rare Ginsenoside Ro
 Biosynthesis Based on S. cerevisiae\", presenting the exploration of
@@ -221,14 +221,14 @@ This exchange was not only a cross-border collision of academic views,
 but also formed a collaborative thinking in the aspects of experimental
 technology optimization and topic innovation direction, building a
 cooperative bridge for the two sides to achieve technical breakthrough
-and promote the industrial application of synthetic biology in the iGEM
+and promote the industrial application of synthetic biology in the iDEC
 competition.
 
 ![picture_15](https://static.igem.wiki/teams/5562/collabroation/15.webp)
 
-### 3.1.3 With the iGEM Team of Ocean University of China (OUC-China)
+### 3.1.3 With the iDEC Team of Ocean University of China (OUC-China)
 
-Our team participated in an online communication with the iGEM team
+Our team participated in an online communication with the iDEC team
 (OUC-China) at Ocean University of China. At the meeting, the OUC-China
 team demonstrated the technical path and achievement promotion mode of
 its synthetic biology project: At the technical level, the team carried
@@ -253,9 +253,9 @@ design and social value communication.
 
 ![picture_16](https://static.igem.wiki/teams/5562/collabroation/16.webp)
 
-### 3.1.4 With the iGEM Team of Nankai University (NKU-China)
+### 3.1.4 With the iDEC Team of Nankai University (NKU-China)
 
-Our team participated in the online symposium with the iGEM team of
+Our team participated in the online symposium with the iDEC team of
 Nankai University (NKU-China). At the meeting, the NKU-China team
 demonstrated its project of \"Targeted intervention for Alzheimer\'s
 disease (AD) based on engineering yeast\", carried out in-depth analysis
@@ -283,10 +283,10 @@ bacteria\" and \"demonstration of clinical value\".
 
 ![picture_17](https://static.igem.wiki/teams/5562/collabroation/17.webp)
 
-### 3.1.5 With iGEM Team of Zhengzhou University (ZZU-IGEM)
+### 3.1.5 With iDEC Team of Zhengzhou University (ZZU-iDEC)
 
-Our team participated in the online communication with the iGEM team
-(ZZU-IGEM) of Zhengzhou University. At the meeting, ZZU team
+Our team participated in the online communication with the iDEC team
+(ZZU-iDEC) of Zhengzhou University. At the meeting, ZZU team
 demonstrated its rich achievements in the \"human practice\" link:
 through the production of a popular science brochure on the theme
 \"non-invasive screening for breast cancer\", the popularization and
@@ -307,10 +307,10 @@ module of our project.
 
 ![picture_18](https://static.igem.wiki/teams/5562/collabroation/18.webp)
 
-### 3.1.6 With iGEM Team of South China University of Technology(scut-China)
+### 3.1.6 With iDEC Team of South China University of Technology(scut-China)
 
 Our team participated in the online technical exchange meeting with
-scut-China, an iGEM team from South China University of Technology. At
+scut-China, an iDEC team from South China University of Technology. At
 the meeting, the scut-China team demonstrated its cutting-edge research
 in the field of synthetic biology. In the wet experiment part, the team
 performed genetic transformation at the GAL80 locus of S. cerevisiae by
@@ -337,9 +337,9 @@ optimization and achievements deepening of our own project.
 
 ![picture_19](https://static.igem.wiki/teams/5562/collabroation/19.webp)
 
-### 3.1.7 With iGEM Team of South China Agricultural University (SCAU-China,SCAU Double Satellite Team)
+### 3.1.7 With iDEC Team of South China Agricultural University (SCAU-China,SCAU Double Satellite Team)
 
-Our team conducted online thematic exchanges with the iGEM team of South
+Our team conducted online thematic exchanges with the iDEC team of South
 China Agricultural University (SCAU-China, also known as the \"SCAU
 Double Star Team\"). At the meeting, SCAU-China team demonstrated the
 research results around its synthetic biology project from technical
@@ -371,9 +371,9 @@ application of synthetic biology and social value transmission.
 
 ### 3.2.1 Peking University Symposium on \"Living Drug Engineering\"
 
-Our team participated in the \"Symposium on iGEM\' Engineering Living
-Drugs\' in China Region\" sponsored by Peking University IGEM team
-(Peking iGEM). From August 5 to 9, 2025, 28 iGEM teams from 24 top
+Our team participated in the \"Symposium on iDEC\' Engineering Living
+Drugs\' in China Region\" sponsored by Peking University iDEC team
+(Peking iDEC). From August 5 to 9, 2025, 28 iDEC teams from 24 top
 universities in the country gathered in the Life Science Building in Jin
 Kemu, Peking University, for in-depth discussion on \"Opportunities and
 Challenges of Engineering Living Drug\".
@@ -397,7 +397,7 @@ University on issues such as clinical conversion path of living drugs
 and ethical evaluation system. From the collision of ideas ,we gained
 multiple perspectives of technical optimization and social value
 demonstration , and accumulated valuable experience for further
-breakthrough of the project in the iGEM competition.
+breakthrough of the project in the iDEC competition.
 
 ![picture_21](https://static.igem.wiki/teams/5562/collabroation/21.webp)
 
@@ -405,7 +405,7 @@ breakthrough of the project in the iGEM competition.
 
 Our team participated in the 12th China BioGenetic Engineering Machine
 Exchange Conference and the 2nd Global Biological Developer Conference
-(CCIC & Synbiopunk 2025). This grand industry gathering of 107 iGEM
+(CCIC & Synbiopunk 2025). This grand industry gathering of 107 iDEC
 participating teams and over 200 registered participants across the
 country has also become an important platform for us to deepen
 inter-school cooperation and build collaborative ties with teams from
@@ -413,7 +413,7 @@ multiple universities through multi-dimensional interaction:
 
 In the student project presentation, we focused on the project \"Health
 of Intestinal Microflora during the Perioperative Period\", and
-discussed the technical details with the iGEM teams from Southern
+discussed the technical details with the iDEC teams from Southern
 University of Science and Technology and National University of Defense
 Technology. For \"safety verification of engineering bacteria\", the
 team from Southern University of Science and Technology shared its
@@ -428,7 +428,7 @@ subsequently.
 
 During the special discussion on \"Medical application of synthetic
 biology\" in the parallel sub-forum, we formed a temporary cooperation
-group with iGEM teams from Peking University and South China University
+group with iDEC teams from Peking University and South China University
 of Technology around \"targeted delivery technology of engineering
 bacteria\". Based on Peking University\'s technical advantages in
 \"design of logic circuit for living drug\" and \"optimization of
@@ -441,14 +441,14 @@ technical rigor of the project through inter-school resource
 complementarity.
 
 In addition, during the conference, we also established a long-term
-exchange mechanism with the iGEM teams of Ocean University of China and
+exchange mechanism with the iDEC teams of Ocean University of China and
 Zhengzhou University, and agreed to regularly hold online sharing
 meetings, to continuously interact around such topics as \"project
 progress synchronization\", \"contest defense skills\" and \"exchange of
 human practice cases\", and to transform a single exchange into
 long-term inter-school collaboration in the process of resource sharing
 and thinking collision, so as to inject cross-school wisdom into the
-promotion of their iGEM projects.
+promotion of their iDEC projects.
 
 ![picture_22](https://static.igem.wiki/teams/5562/collabroation/22.webp)
 
@@ -474,11 +474,11 @@ dose\", we explained in detail in combination with the experimental data
 and model analysis, demonstrating the dual values of the project in
 terms of technical innovation and clinical practicability.
 
-This competition was not only a comprehensive inspection of our iGEM
+This competition was not only a comprehensive inspection of our iDEC
 project, but also gained valuable suggestions on technical optimization
 and achievement transformation during the communication with the
 national synthetic biology innovation team, laying a solid foundation
-for the breakthrough of the follow-up iGEM competition and the actual
+for the breakthrough of the follow-up iDEC competition and the actual
 application of the project.
 
 ![picture_24](https://static.igem.wiki/teams/5562/collabroation/24.webp)
@@ -517,7 +517,7 @@ University, including the Departments of Gastrointestinal Surgery,
 Gastroenterology, and Anesthesiology. Through interviews, discussions,
 and clinical resource coordination, we gained insights into the factors
 affecting perioperative patient outcomes, providing a real clinical
-basis for our iGEM project, which was subsequently incorporated into our
+basis for our iDEC project, which was subsequently incorporated into our
 project posters.
 
 In addition, we received professional advice from the hospitals' Health
@@ -567,7 +567,7 @@ brand new scientific understanding on postoperative health management.
 We have established deep cooperation with Jinghong Health Company.
 Through communication and negotiations, the company provided valuable
 advice on writing a business plan, supporting the development of our
-iGEM project. At the same time, we worked closely with Jinghong
+iDEC project. At the same time, we worked closely with Jinghong
 Health\'s product development team to explore the application potential
 of synthetic biology in gut health functional food development, focusing
 on the design logic of "engineered bacteria secreting oleic acid to
@@ -606,6 +606,6 @@ and only by working together can we create solutions with lasting
 impact.
 
 In the future, we will continue to deepen our cooperation with other
-teams and organizations, contributing our efforts to the iGEM community.
+teams and organizations, contributing our efforts to the iDEC community.
 We believe that through collective action, the power of science and
 collaboration will bring about positive change.

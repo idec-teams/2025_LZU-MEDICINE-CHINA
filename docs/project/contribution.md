@@ -12,7 +12,7 @@ To further enhance the antimicrobial activity of the engineered bacteria, we int
 
 More importantly, we innovatively combined these functional components to construct a multifunctional fused expression unit (BBa_25NBMOAR). This unit utilizes a 2A self-cleaving peptide to link OLE1 and DEFB4A, enabling the co-expression of these two genes within a single transcript. This allows the engineered probiotics to perform dual roles of "repair" and "defense" simultaneously.
 
-Furthermore, we uploaded the stringent plasmid backbone PIP501 (BBa_251CFLR3) used in our system. This backbone, which was previously unavailable in the iGEM Registry, is expected to serve as a valuable resource for future teams working on similar projects.
+Furthermore, we uploaded the stringent plasmid backbone PIP501 (BBa_251CFLR3) used in our system. This backbone, which was previously unavailable in the iDEC Registry, is expected to serve as a valuable resource for future teams working on similar projects.
 
 ## Parts Table
 
