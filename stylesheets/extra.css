@@ -1,0 +1,176 @@
+/* Custom modern enhancements for Material theme */
+
+/* Import Google Fonts - Inter & JetBrains Mono */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --brand-gradient: linear-gradient(135deg, #5b67f1 0%, #06b6d4 100%);
+  --brand-glow: 0 10px 30px rgba(6, 182, 212, 0.25);
+}
+
+/* Elevate headings & body text */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+}
+
+.md-typeset p {
+  line-height: 1.9;
+}
+
+/* Hero section (used on homepage) */
+.hero {
+  position: relative;
+  padding: 72px 24px;
+  border-radius: 16px;
+  background: var(--brand-gradient);
+  color: white;
+  overflow: hidden;
+  box-shadow: var(--brand-glow);
+}
+
+.hero h1 {
+  margin: 0 0 8px 0;
+  font-size: 40px;
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+.hero .actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s;
+}
+
+.button.primary {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.button.secondary {
+  background: #fff;
+  color: #111827;
+}
+
+.button:hover { transform: translateY(-1px); }
+
+/* Feature grid */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 960px) {
+  .features { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .features { grid-template-columns: 1fr; }
+}
+
+.feature-card {
+  padding: 20px;
+  border-radius: 14px;
+  background: var(--md-surface);
+  box-shadow: 0 1px 0 rgba(17, 24, 39, 0.06), 0 8px 24px rgba(17, 24, 39, 0.05);
+  border: 1px solid rgba(17, 24, 39, 0.06);
+}
+
+.feature-card h3 { margin-top: 8px; }
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(6, 182, 212, 0.15);
+  color: #0891b2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tables polish */
+.md-typeset table:not([class]) {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Images rounding */
+.md-typeset img {
+  border-radius: 12px;
+}
+
+/* Callout emphasis */
+.md-typeset .admonition {
+  border-radius: 12px;
+}
+
+/* Hide breadcrumb 'Home' above content */
+.md-content__button + nav[aria-label="breadcrumbs"],
+.md-content nav[aria-label="breadcrumbs"],
+nav[aria-label="breadcrumbs"],
+.md-breadcrumbs {
+  display: none !important;
+}
+
+/* Improve integrated left ToC spacing and readability */
+.md-nav--secondary {
+  margin-top: 8px;
+}
+
+.md-nav--secondary .md-nav__title {
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.md-nav--secondary .md-nav__item {
+  margin: 2px 0;
+}
+
+.md-nav--secondary .md-nav__link {
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.md-nav--secondary .md-nav__link--active {
+  background: rgba(6, 182, 212, 0.12);
+}
+
+/* Force-hide right sidebar ToC when integrating into left nav */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Widen layout slightly for a premium feel */
+.md-grid {
+  max-width: 1280px;
+}
+
+
